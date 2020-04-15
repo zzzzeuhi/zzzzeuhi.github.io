@@ -1,0 +1,737 @@
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+  html, body {
+    margin:0;
+    padding:0;
+    font-family: "Savoy", Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    scroll-behavior: smooth;
+  }
+  .parallax {
+    /* The image used */
+    background-image: url("home-mobile.png");
+
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+  #about, #works {
+    padding: 2rem 0;
+    margin: auto;
+    width: 70%;
+    z-index: 2;
+  }
+  .normal {
+    line-height: 2rem;
+    font-size: 1rem;
+  }
+  .float {
+    position: relative;
+  }
+  #logo {
+    position: fixed;
+  }
+  h1 {
+    font-family: "Vanity", Arial, sans-serif;
+    font-size: 2rem;
+  }
+  .pink-dot {
+    color: #FBA9A6;
+  }
+  #skills {
+    margin-top: 4rem;
+  }
+  .blank-white {
+    display: none;
+  }
+  .blank-pink {
+    display: none;
+  }
+  .moment-img {
+    margin: 0;
+    padding: 2rem;
+  }
+  .row {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #moments-title {
+    margin-left: 15%;
+  }
+  #contact-title {
+    color:#ffffff;
+  }
+  #contact {
+    padding: 4rem 15%;
+    background-color: #000;
+    color: #ffffff;
+  }
+  #letstalk a {
+    font-size: 2rem;
+    font-family: "Vanity", Arial, sans-serif;
+    font-style: italic;
+    color: #ffffff;
+    text-decoration: line-through;
+    text-decoration-color: #FBA9A6;
+  }
+  #letstalk a:hover {
+    text-decoration: none;
+    color: #FBA9A6;
+  }
+  .navbar {
+    padding: 0;
+    background: none;
+  }
+  .navbar-nav .nav-link {
+    color: #898989;
+  }
+  .navbar-nav .active>.nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-nav .show>.nav-link {
+    color: #FBA9A6;
+   }
+   .navbar-toggler {
+    color: #898989;
+     border: none;
+   }
+  .fa {
+    color: #FBA9A6;
+    font-size: 1rem;
+    padding-right: 2rem;
+  }
+  .fa:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+.mobile-work {
+  margin-bottom: 2rem;
+}
+a {
+    text-decoration:none
+}
+li {
+  list-style:none
+}
+ul {    
+  margin:0
+}
+
+ul.nav {    
+  margin:0 auto;
+  height:100%;        
+}
+  #moments {
+    z-index: 1;
+  }
+
+  .btn-info {
+    padding: 0;
+    color: none;
+    background: none;
+    border: none;
+  }
+  .btn-info:hover {
+    color: none;
+    background: #f5f5f5;
+    border: none;
+  }
+  .btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none!important;
+    background: none;
+  }
+  .modal-dialog {
+    max-width: 100%;
+    margin: 0;
+  }
+  .major-display {
+    width: 100%;
+    height: auto;
+  }
+  .btn-dark {
+    background-color: #ffffff;
+    border-color: #000;
+    color: #000;
+  }
+  .btn-dark:hover {
+    background-color: #000;
+    border: #000;
+    color: #ffffff;
+  }
+  .modal-body {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+  html, body {
+    margin:0;
+    padding:0;
+    font-family: "Savoy", Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    scroll-behavior: smooth;
+  }
+  .parallax {
+    /* The image used */
+    background-image: url("home-pad.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+  #about, #works {
+    padding: 6rem 0;
+    margin: auto;
+    width: 70%;
+    z-index: 2;
+  }
+  .normal {
+    line-height: 2rem;
+    font-size: 1rem;
+  }
+  .float {
+    position: relative;
+  }
+  #logo {
+    position: fixed;
+  }
+  h1 {
+    font-family: "Vanity", Arial, sans-serif;
+    font-size: 2.5rem;
+  }
+  .pink-dot {
+    color: #FBA9A6;
+  }
+  #skills {
+    margin-top: -4rem;
+  }
+  .blank-white {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+  }
+  .blank-pink {
+    width: 100%;
+    height: auto;
+    background-color: #FBA9A6;
+  }
+  .moment-img {
+    margin: 0;
+    padding: 0;
+  }
+  .row {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #moments-title {
+    margin-left: 15%;
+  }
+  #contact-title {
+    color:#ffffff;
+  }
+  #contact {
+    padding: 4rem 15%;
+    background-color: #000;
+    color: #ffffff;
+  }
+  #letstalk a {
+    font-size: 2.5rem;
+    font-family: "Vanity", Arial, sans-serif;
+    font-style: italic;
+    color: #ffffff;
+    text-decoration: line-through;
+    text-decoration-color: #FBA9A6;
+  }
+  #letstalk a:hover {
+    text-decoration: none;
+    color: #FBA9A6;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .navbar-nav .nav-link {
+    color: #898989;
+  }
+  .navbar-nav .active>.nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-nav .show>.nav-link {
+    color: #FBA9A6;
+    border-bottom: 8px solid #FBA9A6;
+  }
+  .fa {
+    color: #FBA9A6;
+    font-size: 1.5rem;
+    padding-right: 3rem;
+  }
+  .fa:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+a {
+    text-decoration:none
+}
+li {
+  list-style:none
+}
+ul {    
+  margin:0
+}
+.main-nav {
+  width:100vh;    
+  position: fixed;
+  background:none;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin: left top;
+  -moz-transform: rotate(90deg);
+  -moz-transform-origin: left top;
+  -ms-transform: rotate(90deg);
+  -ms-transform-origin: left top;
+  -o-transform: rotate(90deg);
+  -o-transform-origin: left top;
+  transform: rotate(90deg);
+  transform-origin: left top;
+  top: 5%;
+  left: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 999;
+}
+ul.nav {    
+  margin:0 auto;
+  height:100%;        
+}
+  #moments {
+    z-index: 1;
+  }
+
+  .btn-info {
+    padding: 0;
+    color: none;
+    background: none;
+    border: none;
+  }
+  .btn-info:hover {
+    color: none;
+    background: #f5f5f5;
+    border: none;
+  }
+  .btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none!important;
+    background: none;
+  }
+  .modal-dialog {
+    max-width: 80%;
+  }
+  .major-display {
+    width: 100%;
+    height: auto;
+  }
+  .btn-dark {
+    background-color: #ffffff;
+    border-color: #000;
+    color: #000;
+  }
+  .btn-dark:hover {
+    background-color: #000;
+    border: #000;
+    color: #ffffff;
+  }
+  .modal-body {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+  }
+ }
+
+ /* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  html, body {
+    margin:0;
+    padding:0;
+    font-family: "Savoy", Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    scroll-behavior: smooth;
+  }
+  .parallax {
+    /* The image used */
+    background-image: url("home.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  #about, #works {
+    padding: 6rem 0;
+    margin: auto;
+    width: 70%;
+    z-index: 2;
+  }
+  .normal {
+    line-height: 3rem;
+    font-size: 1.5rem;
+  }
+  .float {
+    position: relative;
+  }
+  #logo {
+    position: fixed;
+  }
+  h1 {
+    font-family: "Vanity", Arial, sans-serif;
+    font-size: 3.5rem;
+  }
+  .pink-dot {
+    color: #FBA9A6;
+  }
+  #skills {
+    margin-top: -8rem;
+  }
+  .blank-white {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+  }
+  .blank-pink {
+    width: 100%;
+    height: auto;
+    background-color: #FBA9A6;
+  }
+  .moment-img {
+    margin: 0;
+    padding: 0;
+  }
+  .row {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #moments-title {
+    margin-left: 15%;
+  }
+  #contact-title {
+    color:#ffffff;
+  }
+  #contact {
+    padding: 4rem 15%;
+    background-color: #000;
+    color: #ffffff;
+  }
+  #letstalk a {
+    font-size: 3.5rem;
+    font-family: "Vanity", Arial, sans-serif;
+    font-style: italic;
+    color: #ffffff;
+    text-decoration: line-through;
+    text-decoration-color: #FBA9A6;
+  }
+  #letstalk a:hover {
+    text-decoration: none;
+    color: #FBA9A6;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .navbar-nav .nav-link {
+    color: #898989;
+  }
+  .navbar-nav .active>.nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-nav .show>.nav-link {
+    color: #FBA9A6;
+    border-bottom: 8px solid #FBA9A6;
+  }
+  .fa {
+    color: #FBA9A6;
+    font-size: 2rem;
+    padding-right: 4rem;
+  }
+  .fa:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+a {
+    text-decoration:none
+}
+li {
+  list-style:none
+}
+ul {    
+  margin:0
+}
+.main-nav {
+  width:100vh;    
+  position: fixed;
+  background:none;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin: left top;
+  -moz-transform: rotate(90deg);
+  -moz-transform-origin: left top;
+  -ms-transform: rotate(90deg);
+  -ms-transform-origin: left top;
+  -o-transform: rotate(90deg);
+  -o-transform-origin: left top;
+  transform: rotate(90deg);
+  transform-origin: left top;
+  top: 5%;
+  left: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 999;
+}
+ul.nav {    
+  margin:0 auto;
+  height:100%;        
+}
+  #moments {
+    z-index: 1;
+  }
+
+  .btn-info {
+    padding: 0;
+    color: none;
+    background: none;
+    border: none;
+  }
+  .btn-info:hover {
+    color: none;
+    background: #f5f5f5;
+    border: none;
+  }
+  .btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none!important;
+    background: none;
+  }
+  .modal-dialog {
+    max-width: 80%;
+  }
+  .major-display {
+    width: 100%;
+    height: auto;
+  }
+  .btn-dark {
+    background-color: #ffffff;
+    border-color: #000;
+    color: #000;
+  }
+  .btn-dark:hover {
+    background-color: #000;
+    border: #000;
+    color: #ffffff;
+  }
+  .modal-body {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+ /* wide Layout: 1280px. */
+ @media only screen and (min-width: 1201px) { 
+  html, body {
+    margin:0;
+    padding:0;
+    font-family: "Savoy", Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    scroll-behavior: smooth;
+  }
+  .parallax {
+    /* The image used */
+    background-image: url("home.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  #about, #works {
+    padding: 6rem 0;
+    margin: auto;
+    width: 70%;
+    z-index: 2;
+  }
+  .normal {
+    line-height: 3rem;
+    font-size: 1.5rem;
+  }
+  .float {
+    position: relative;
+  }
+  #logo {
+    position: fixed;
+  }
+  h1 {
+    font-family: "Vanity", Arial, sans-serif;
+    font-size: 3.5rem;
+  }
+  .pink-dot {
+    color: #FBA9A6;
+  }
+  #skills {
+    margin-top: -8rem;
+  }
+  .blank-white {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+  }
+  .blank-pink {
+    width: 100%;
+    height: auto;
+    background-color: #FBA9A6;
+  }
+  .moment-img {
+    margin: 0;
+    padding: 0;
+  }
+  .row {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #moments-title {
+    margin-left: 15%;
+  }
+  #contact-title {
+    color:#ffffff;
+  }
+  #contact {
+    padding: 4rem 15%;
+    background-color: #000;
+    color: #ffffff;
+  }
+  #letstalk a {
+    font-size: 3.5rem;
+    font-family: "Vanity", Arial, sans-serif;
+    font-style: italic;
+    color: #ffffff;
+    text-decoration: line-through;
+    text-decoration-color: #FBA9A6;
+  }
+  #letstalk a:hover {
+    text-decoration: none;
+    color: #FBA9A6;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .navbar-nav .nav-link {
+    color: #898989;
+  }
+  .navbar-nav .active>.nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-nav .show>.nav-link {
+    color: #FBA9A6;
+    border-bottom: 8px solid #FBA9A6;
+  }
+  .fa {
+    color: #FBA9A6;
+    font-size: 2rem;
+    padding-right: 4rem;
+  }
+  .fa:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+a {
+    text-decoration:none
+}
+li {
+  list-style:none
+}
+ul {    
+  margin:0
+}
+.main-nav {
+  width:100vh;    
+  position: fixed;
+  background:none;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin: left top;
+  -moz-transform: rotate(90deg);
+  -moz-transform-origin: left top;
+  -ms-transform: rotate(90deg);
+  -ms-transform-origin: left top;
+  -o-transform: rotate(90deg);
+  -o-transform-origin: left top;
+  transform: rotate(90deg);
+  transform-origin: left top;
+  top: 5%;
+  left: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 999;
+}
+ul.nav {    
+  margin:0 auto;
+  height:100%;        
+}
+  #moments {
+    z-index: 1;
+  }
+
+  .btn-info {
+    padding: 0;
+    color: none;
+    background: none;
+    border: none;
+  }
+  .btn-info:hover {
+    color: none;
+    background: #f5f5f5;
+    border: none;
+  }
+  .btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none!important;
+    background: none;
+  }
+  .modal-dialog {
+    max-width: 80%;
+  }
+  .major-display {
+    width: 100%;
+    height: auto;
+  }
+  .modal-body {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+  }
+  .btn-dark {
+    background-color: #ffffff;
+    border-color: #000;
+    color: #000;
+  }
+  .btn-dark:hover {
+    background-color: #000;
+    border: #000;
+    color: #ffffff;
+  }
+}  
