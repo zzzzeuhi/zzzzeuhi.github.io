@@ -4,7 +4,7 @@
   html, body {
     margin:0;
     padding:0;
-    font-family: "Savoy", Arial, sans-serif;
+    font-family: "Gotham", Arial, sans-serif;
     font-weight:normal;
     font-style:normal;
     scroll-behavior: smooth;
@@ -62,7 +62,7 @@
     font-size: 2rem;
   }
   .pink-dot {
-    color: #FBA9A6;
+    color: #B28ED1;
   }
   #skills {
     margin-top: 4rem;
@@ -99,11 +99,11 @@
     font-style: italic;
     color: #ffffff;
     text-decoration: line-through;
-    text-decoration-color: #FBA9A6;
+    text-decoration-color: #B28ED1;
   }
   #letstalk a:hover {
     text-decoration: none;
-    color: #FBA9A6;
+    color: #B28ED1;
   }
   .navbar {
     padding: 0;
@@ -113,14 +113,14 @@
     color: #898989;
   }
   .navbar-nav .active>.nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-nav .show>.nav-link {
-    color: #FBA9A6;
+    color: #B28ED1;
    }
    .navbar-toggler {
     color: #898989;
      border: none;
    }
   .fa {
-    color: #FBA9A6;
+    color: #B28ED1;
     font-size: 1rem;
     padding-right: 2rem;
   }
@@ -195,7 +195,7 @@ ul.nav {
   html, body {
     margin:0;
     padding:0;
-    font-family: "Savoy", Arial, sans-serif;
+    font-family: "Gotham", Arial, sans-serif;
     font-weight:normal;
     font-style:normal;
     scroll-behavior: smooth;
@@ -253,7 +253,7 @@ ul.nav {
     font-size: 2.5rem;
   }
   .pink-dot {
-    color: #FBA9A6;
+    color: #B28ED1;
   }
   #skills {
     margin-top: -4rem;
@@ -266,7 +266,7 @@ ul.nav {
   .blank-pink {
     width: 100%;
     height: auto;
-    background-color: #FBA9A6;
+    background-color: #B28ED1;
   }
   .moment-img {
     margin: 0;
@@ -294,11 +294,11 @@ ul.nav {
     font-style: italic;
     color: #ffffff;
     text-decoration: line-through;
-    text-decoration-color: #FBA9A6;
+    text-decoration-color: #B28ED1;
   }
   #letstalk a:hover {
     text-decoration: none;
-    color: #FBA9A6;
+    color: #B28ED1;
   }
   .navbar {
     padding: 0;
@@ -307,11 +307,11 @@ ul.nav {
     color: #898989;
   }
   .navbar-nav .active>.nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-nav .show>.nav-link {
-    color: #FBA9A6;
-    border-bottom: 8px solid #FBA9A6;
+    color: #B28ED1;
+    border-bottom: 8px solid #B28ED1;
   }
   .fa {
-    color: #FBA9A6;
+    color: #B28ED1;
     font-size: 1.5rem;
     padding-right: 3rem;
   }
@@ -402,7 +402,7 @@ ul.nav {
   html, body {
     margin:0;
     padding:0;
-    font-family: "Savoy", Arial, sans-serif;
+    font-family: "Gotham", Arial, sans-serif;
     font-weight:normal;
     font-style:normal;
     scroll-behavior: smooth;
@@ -458,7 +458,7 @@ ul.nav {
     font-size: 3.5rem;
   }
   .pink-dot {
-    color: #FBA9A6;
+    color: #B28ED1;
   }
   #skills {
     margin-top: -8rem;
@@ -471,7 +471,7 @@ ul.nav {
   .blank-pink {
     width: 100%;
     height: auto;
-    background-color: #FBA9A6;
+    background-color: #B28ED1;
   }
   .moment-img {
     margin: 0;
@@ -499,11 +499,11 @@ ul.nav {
     font-style: italic;
     color: #ffffff;
     text-decoration: line-through;
-    text-decoration-color: #FBA9A6;
+    text-decoration-color: #B28ED1;
   }
   #letstalk a:hover {
     text-decoration: none;
-    color: #FBA9A6;
+    color: #B28ED1;
   }
   .navbar {
     padding: 0;
@@ -512,11 +512,11 @@ ul.nav {
     color: #898989;
   }
   .navbar-nav .active>.nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-nav .show>.nav-link {
-    color: #FBA9A6;
-    border-bottom: 8px solid #FBA9A6;
+    color: #B28ED1;
+    border-bottom: 8px solid #B28ED1;
   }
   .fa {
-    color: #FBA9A6;
+    color: #B28ED1;
     font-size: 2rem;
     padding-right: 4rem;
   }
@@ -607,7 +607,7 @@ ul.nav {
   html, body {
     margin:0;
     padding:0;
-    font-family: "Savoy", Arial, sans-serif;
+    font-family: "Gotham", Arial, sans-serif;
     font-weight:normal;
     font-style:normal;
     scroll-behavior: smooth;
@@ -663,7 +663,7 @@ ul.nav {
     font-size: 3.5rem;
   }
   .pink-dot {
-    color: #FBA9A6;
+    color: #B28ED1;
   }
   #skills {
     margin-top: -8rem;
@@ -676,7 +676,7 @@ ul.nav {
   .blank-pink {
     width: 100%;
     height: auto;
-    background-color: #FBA9A6;
+    background-color: #B28ED1;
   }
   .moment-img {
     margin: 0;
@@ -704,11 +704,11 @@ ul.nav {
     font-style: italic;
     color: #ffffff;
     text-decoration: line-through;
-    text-decoration-color: #FBA9A6;
+    text-decoration-color: #B28ED1;
   }
   #letstalk a:hover {
     text-decoration: none;
-    color: #FBA9A6;
+    color: #B28ED1;
   }
   .navbar {
     padding: 0;
@@ -717,11 +717,11 @@ ul.nav {
     color: #898989;
   }
   .navbar-nav .active>.nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-nav .show>.nav-link {
-    color: #FBA9A6;
-    border-bottom: 8px solid #FBA9A6;
+    color: #B28ED1;
+    border-bottom: 8px solid #B28ED1;
   }
   .fa {
-    color: #FBA9A6;
+    color: #B28ED1;
     font-size: 2rem;
     padding-right: 4rem;
   }
