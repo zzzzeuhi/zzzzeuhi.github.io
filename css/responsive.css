@@ -10,35 +10,16 @@
     scroll-behavior: smooth;
   }
   .parallax {
+    /* The image used */
+    background-image: url("home-mobile.png");
     /* Full height */
-    /* height: 100%;  */
-    padding-top: 5%;
-    padding-bottom: 5%;
+    height: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .profile{
-    width: 90%;
-    height: 100%;
-  }
-  .profile-body{
-    display: flex;
-    flex-direction: column;
-  }
-  .profile-info{
-    width: 100%;
-  }
-  .profile-picture{
-    width: 100%;
-    height: 400px;
   }
 
   #about, #works {
@@ -58,11 +39,11 @@
     position: fixed;
   }
   h1 {
-    font-family: "Vanity", Arial, sans-serif;
+    font-family: "Gotham-Bold", Arial, sans-serif;
     font-size: 2rem;
   }
   .pink-dot {
-    color: #B28ED1;
+    color: #3A20FF;
   }
   #skills {
     margin-top: 4rem;
@@ -95,15 +76,16 @@
   }
   #letstalk a {
     font-size: 2rem;
-    font-family: "Vanity", Arial, sans-serif;
-    font-style: italic;
+    font-family: "Gotham-Italic", Arial, sans-serif;
     color: #ffffff;
     text-decoration: line-through;
-    text-decoration-color: #B28ED1;
+    text-decoration-color: #3A20FF;
+    text-decoration-thickness: 8px;
+    padding-right: 5px;
   }
   #letstalk a:hover {
     text-decoration: none;
-    color: #B28ED1;
+    color: #3A20FF;
   }
   .navbar {
     padding: 0;
@@ -113,14 +95,14 @@
     color: #898989;
   }
   .navbar-nav .active>.nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-nav .show>.nav-link {
-    color: #B28ED1;
+    color: #3A20FF;
    }
    .navbar-toggler {
     color: #898989;
      border: none;
    }
   .fa {
-    color: #B28ED1;
+    color: #3A20FF;
     font-size: 1rem;
     padding-right: 2rem;
   }
@@ -201,35 +183,16 @@ ul.nav {
     scroll-behavior: smooth;
   }
   .parallax {
+    /* The image used */
+    background-image: url("home-pad.png");
     /* Full height */
-    /* height: 100%;  */
-    padding-top: 5%;
-    padding-bottom: 5%;
+    height: 100%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .profile{
-    width: 90%;
-    height: 100%;
-  }
-  .profile-body{
-    display: flex;
-    flex-direction: column;
-  }
-  .profile-info{
-    width: 100%;
-  }
-  .profile-picture{
-    width: 100%;
-    height: 400px;
   }
 
   #about, #works {
@@ -249,11 +212,11 @@ ul.nav {
     position: fixed;
   }
   h1 {
-    font-family: "Vanity", Arial, sans-serif;
+    font-family: "Gotham-Bold", Arial, sans-serif;
     font-size: 2.5rem;
   }
   .pink-dot {
-    color: #B28ED1;
+    color: #3A20FF;
   }
   #skills {
     margin-top: -4rem;
@@ -266,7 +229,7 @@ ul.nav {
   .blank-pink {
     width: 100%;
     height: auto;
-    background-color: #B28ED1;
+    background-color: #3A20FF;
   }
   .moment-img {
     margin: 0;
@@ -290,15 +253,16 @@ ul.nav {
   }
   #letstalk a {
     font-size: 2.5rem;
-    font-family: "Vanity", Arial, sans-serif;
-    font-style: italic;
+    font-family: "Gotham-Italic", Arial, sans-serif;
     color: #ffffff;
     text-decoration: line-through;
-    text-decoration-color: #B28ED1;
+    text-decoration-color: #3A20FF;
+    text-decoration-thickness: 8px;
+    padding-right: 5px;
   }
   #letstalk a:hover {
     text-decoration: none;
-    color: #B28ED1;
+    color: #3A20FF;
   }
   .navbar {
     padding: 0;
@@ -307,11 +271,11 @@ ul.nav {
     color: #898989;
   }
   .navbar-nav .active>.nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-nav .show>.nav-link {
-    color: #B28ED1;
-    border-bottom: 8px solid #B28ED1;
+    color: #3A20FF;
+    border-bottom: 8px solid #3A20FF;
   }
   .fa {
-    color: #B28ED1;
+    color: #3A20FF;
     font-size: 1.5rem;
     padding-right: 3rem;
   }
@@ -408,33 +372,16 @@ ul.nav {
     scroll-behavior: smooth;
   }
   .parallax {
+    /* The image used */
+    background-image: url("home.png");
     /* Full height */
-    /* height: 100%;  */
-    padding-top: 5%;
-    padding-bottom: 5%;
+    height: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .profile{
-    width: 90%;
-    height: 100%;
-  }
-  .profile-body{
-    display: flex;
-  }
-  .profile-info{
-    width: 50%;
-  }
-  .profile-picture{
-    width: 50%;
   }
 
   #about, #works {
@@ -454,11 +401,11 @@ ul.nav {
     position: fixed;
   }
   h1 {
-    font-family: "Vanity", Arial, sans-serif;
+    font-family: "Gotham-Bold", Arial, sans-serif;
     font-size: 3.5rem;
   }
   .pink-dot {
-    color: #B28ED1;
+    color: #3A20FF;
   }
   #skills {
     margin-top: -8rem;
@@ -471,7 +418,7 @@ ul.nav {
   .blank-pink {
     width: 100%;
     height: auto;
-    background-color: #B28ED1;
+    background-color: #3A20FF;
   }
   .moment-img {
     margin: 0;
@@ -495,15 +442,16 @@ ul.nav {
   }
   #letstalk a {
     font-size: 3.5rem;
-    font-family: "Vanity", Arial, sans-serif;
-    font-style: italic;
+    font-family: "Gotham-Italic", Arial, sans-serif;
     color: #ffffff;
     text-decoration: line-through;
-    text-decoration-color: #B28ED1;
+    text-decoration-color: #3A20FF;
+    text-decoration-thickness: 8px;
+    padding-right: 5px;
   }
   #letstalk a:hover {
     text-decoration: none;
-    color: #B28ED1;
+    color: #3A20FF;
   }
   .navbar {
     padding: 0;
@@ -512,11 +460,11 @@ ul.nav {
     color: #898989;
   }
   .navbar-nav .active>.nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-nav .show>.nav-link {
-    color: #B28ED1;
-    border-bottom: 8px solid #B28ED1;
+    color: #3A20FF;
+    border-bottom: 8px solid #3A20FF;
   }
   .fa {
-    color: #B28ED1;
+    color: #3A20FF;
     font-size: 2rem;
     padding-right: 4rem;
   }
@@ -613,33 +561,16 @@ ul.nav {
     scroll-behavior: smooth;
   }
   .parallax {
+    /* The image used */
+    background-image: url("home.png");
     /* Full height */
-    /* height: 100%;  */
-    padding-top: 5%;
-    padding-bottom: 5%;
+    height: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .profile{
-    width: 90%;
-    height: 100%;
-  }
-  .profile-body{
-    display: flex;
-  }
-  .profile-info{
-    width: 50%;
-  }
-  .profile-picture{
-    width: 50%;
   }
 
   #about, #works {
@@ -659,11 +590,11 @@ ul.nav {
     position: fixed;
   }
   h1 {
-    font-family: "Vanity", Arial, sans-serif;
+    font-family: "Gotham-Bold", Arial, sans-serif;
     font-size: 3.5rem;
   }
   .pink-dot {
-    color: #B28ED1;
+    color: #3A20FF;
   }
   #skills {
     margin-top: -8rem;
@@ -676,7 +607,7 @@ ul.nav {
   .blank-pink {
     width: 100%;
     height: auto;
-    background-color: #B28ED1;
+    background-color: #3A20FF;
   }
   .moment-img {
     margin: 0;
@@ -700,15 +631,16 @@ ul.nav {
   }
   #letstalk a {
     font-size: 3.5rem;
-    font-family: "Vanity", Arial, sans-serif;
-    font-style: italic;
+    font-family: "Gotham-Italic", Arial, sans-serif;
     color: #ffffff;
     text-decoration: line-through;
-    text-decoration-color: #B28ED1;
+    text-decoration-color: #3A20FF;
+    text-decoration-thickness: 8px;
+    padding-right: 5px;
   }
   #letstalk a:hover {
     text-decoration: none;
-    color: #B28ED1;
+    color: #3A20FF;
   }
   .navbar {
     padding: 0;
@@ -717,11 +649,11 @@ ul.nav {
     color: #898989;
   }
   .navbar-nav .active>.nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-nav .show>.nav-link {
-    color: #B28ED1;
-    border-bottom: 8px solid #B28ED1;
+    color: #3A20FF;
+    border-bottom: 8px solid #3A20FF;
   }
   .fa {
-    color: #B28ED1;
+    color: #D9E577;
     font-size: 2rem;
     padding-right: 4rem;
   }
@@ -806,78 +738,3 @@ ul.nav {
     color: #ffffff;
   }
 }  
-
-/* Profile CSS */
-.profile{
-  box-sizing: border-box;
-  font-family: Inter,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
-}
-.profile-header{
-  font-family: Inter,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
-  font-size: 160px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  text-align: left;
-  z-index: 10;
-  position: relative;
-  line-height: 0.5em;
-  pointer-events: none;
-  flex: 1 100%;
-}
-.profile-body{
-  height: 90%;
-  overflow: hidden;
-  position: relative;
-  box-sizing: border-box;
-}
-.profile-info{
-  color: #fff;
-  background-color: #1f4954;
-  padding: 7% 5% 3% 5%;
-  text-align: left;
-}
-.profile-info a, .profile-info a:hover{
-  color: #fff;
-}
-.profile-info-header{
-  color: #fff;
-  font-size: 58px;
-  line-height: 1.3em;
-  font-family: "EB Garamond",serif;
-  font-weight: 400;
-  letter-spacing: -0.3px;
-  display: block;
-  position: relative;
-  margin-bottom: 40px;
-}
-.profile-info-divider{
-  display: block;
-  position: relative;
-  width: 60px;
-  height: 3px;
-  background-color: #fff;
-  margin: 30px 0;
-}
-.profile-info-text{
-  margin: 0 5em 2em 0;
-}
-.profile-info-text a{
-  text-decoration: underline;
-}
-.profile-link{
-  margin-right: 10px;
-  margin-bottom: 20px;
-  vertical-align: top;
-  display: inline-block;
-}
-.profile-icon {
-  width: 30px;
-  height: 30px;
-}
-.profile-picture{
-  background-color: #e7e8ed;
-}
-.profile-picture img{
-  width: 100%;
-  /* height: 100%; */
-}
