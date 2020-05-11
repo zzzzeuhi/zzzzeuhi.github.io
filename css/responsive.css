@@ -738,3 +738,9 @@ ul.nav {
     color: #ffffff;
   }
 }  
+
+
+/* Common CSS */
+#profileImg{
+  width: 100%;
+}
