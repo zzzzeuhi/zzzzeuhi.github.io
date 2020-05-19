@@ -54,17 +54,10 @@
   .blank-pink {
     display: none;
   }
-  .moment-img {
-    margin: 0;
-    padding: 2rem;
-  }
   .row {
     width: 100%;
     margin: 0;
     padding: 0;
-  }
-  #moments-title {
-    margin-left: 15%;
   }
   #contact-title {
     color:#ffffff;
@@ -127,9 +120,6 @@ ul.nav {
   margin:0 auto;
   height:100%;        
 }
-  #moments {
-    z-index: 1;
-  }
 
   .btn-info {
     padding: 0;
@@ -231,17 +221,10 @@ ul.nav {
     height: auto;
     background-color: #3A20FF;
   }
-  .moment-img {
-    margin: 0;
-    padding: 0;
-  }
   .row {
     width: 100%;
     margin: 0;
     padding: 0;
-  }
-  #moments-title {
-    margin-left: 15%;
   }
   #contact-title {
     color:#ffffff;
@@ -317,9 +300,6 @@ ul.nav {
   margin:0 auto;
   height:100%;        
 }
-  #moments {
-    z-index: 1;
-  }
 
   .btn-info {
     padding: 0;
@@ -420,17 +400,10 @@ ul.nav {
     height: auto;
     background-color: #3A20FF;
   }
-  .moment-img {
-    margin: 0;
-    padding: 0;
-  }
   .row {
     width: 100%;
     margin: 0;
     padding: 0;
-  }
-  #moments-title {
-    margin-left: 15%;
   }
   #contact-title {
     color:#ffffff;
@@ -506,9 +479,6 @@ ul.nav {
   margin:0 auto;
   height:100%;        
 }
-  #moments {
-    z-index: 1;
-  }
 
   .btn-info {
     padding: 0;
@@ -609,17 +579,10 @@ ul.nav {
     height: auto;
     background-color: #3A20FF;
   }
-  .moment-img {
-    margin: 0;
-    padding: 0;
-  }
   .row {
     width: 100%;
     margin: 0;
     padding: 0;
-  }
-  #moments-title {
-    margin-left: 15%;
   }
   #contact-title {
     color:#ffffff;
@@ -695,10 +658,6 @@ ul.nav {
   margin:0 auto;
   height:100%;        
 }
-  #moments {
-    z-index: 1;
-  }
-
   .btn-info {
     padding: 0;
     color: none;
