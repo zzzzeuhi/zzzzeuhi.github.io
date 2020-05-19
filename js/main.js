@@ -8,6 +8,15 @@ $(document).ready(function(){
     scrollTop: $(active_section).offset().top
     }, 1000);
   });
+  
+  $(".workbutton").mouseover(function () {
+    const onImage = $(this).find('img').attr('src');
+    $(this).find('img').attr('src', onImage.split('_')[0] + '_off.png');
+  });
+  $(".workbutton").mouseout(function () {
+    const offImage = $(this).find('img').attr('src');
+    $(this).find('img').attr('src', offImage.split('_')[0] + '_on.png');
+  });
 
 
  $(document).scroll(function () {
