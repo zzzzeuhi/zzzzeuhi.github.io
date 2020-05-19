@@ -11,11 +11,11 @@ $(document).ready(function(){
   
   $(".workbutton").mouseover(function () {
     const onImage = $(this).find('img').attr('src');
-    $(this).find('img').attr('src', onImage.split('_')[0] + '_off.png');
+    $(this).find('img').attr('src', onImage.split('_')[0] + '_on.png');
   });
   $(".workbutton").mouseout(function () {
     const offImage = $(this).find('img').attr('src');
-    $(this).find('img').attr('src', offImage.split('_')[0] + '_on.png');
+    $(this).find('img').attr('src', offImage.split('_')[0] + '_off.png');
   });
 
 
